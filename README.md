@@ -12,9 +12,15 @@ Validate YAML or JSON against [JSON Schema](http://json-schema.org/) using CLI t
 
 Both `source` and `schema` **can be JSON or YAML files**.
 
-Both `source` and `schema` can be **paths on local filesystem** or **http(s) links**. The latter means that YAML/JSON files can also be validated against remote schema. For example, this is also valid:
+Both `source` and `schema` can be **paths on local filesystem** or **http(s) links**. The latter means that YAML/JSON files can also be validated against remote schema.
 
-`yaml-jsonschema --source https://website1.com/some_file.yaml --schema http://website2.com/my_json_schema.yaml`
+For example, this is also valid:
+
+```
+yaml-jsonschema \
+  --source https://website1.com/some_file.yaml \
+  --schema http://website2.com/my_json_schema.yaml
+```
 
 # Motivation
 

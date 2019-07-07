@@ -1,4 +1,4 @@
-# yaml-jsonschema CLI tool
+# yaml-jsonschema
 
 Validate YAML or JSON against [JSON Schema](http://json-schema.org/) using CLI tool.
 
